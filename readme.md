@@ -4,10 +4,12 @@
 **Sujet**
 ![aws terraform](MicrosoftTeams-image.png)
 
-
-| cli | aws |
-| :---------|
-|insta|conf |
+* Une instance EC2 / keys
+* Un security group
+* Un VPC
+* Un backend
+* Un code commenté
+* Un fichier de variables
 
 ##préparation faite pendant le cours 
 * création du bucket aws s3 tpbucketflo
