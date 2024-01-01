@@ -38,12 +38,23 @@ lancement de la commande `terraform.exe` dans le repertoire ou se trouve le fich
 
 * Un backend
 
+ # backend est le stockage désigné pour notre instance dans la région Europe de l'est n°3
+  backend "s3" {
+    bucket = "tpbucketflo"
+    key    = "tfstate/tpbucketflo.tfstate"
+    region = "eu-west-3"
+  }
 
 * Un code commenté
 
+Voir les fichiers cloud.tf et ressources.tf
 
 * Un fichier de variables
 
+  Commande permettant d'appliquer les variables présents dans les deux fichiers .tf
+`terraform apply -var-file="variables.tfvars"` 
+
+[AIDE](https://developer.hashicorp.com/terraform/language/values/variables)
 
 ------------------------
 ## Problèmes rencontrés
