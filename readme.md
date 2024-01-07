@@ -28,7 +28,12 @@ lancement de la commande `terraform.exe` dans le repertoire ou se trouve le fich
 ## Actions de configuration de Terraform selon le sujet 
 
 * Une instance EC2 / keys
+Description : Amazon Linux 2023 AMI 2023.3.20231218.0 x86_64 HVM kernel-6.1
+type d'instance : t2.micro
+ID AMI : ami-02ea01341a2884771
 
+création d'une "Key" appelé cletp.pem 
+![clétp](paireclé.jpg)
 
 * Un security group
 
