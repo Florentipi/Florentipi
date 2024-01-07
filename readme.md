@@ -44,11 +44,11 @@ création d'une "Key" appelé cletp.pem
 * Un backend
 
 backend est le stockage désigné pour notre instance dans la région Europe de l'est n°3
-backend "s3" {
+`backend "s3" {
 bucket = "tpbucketflo"
 key    = "tfstate/tpbucketflo.tfstate"
 region = "eu-west-3"
-  }
+  }`
 
 * Un code commenté
 
