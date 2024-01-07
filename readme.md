@@ -38,7 +38,7 @@ lancement de la commande `terraform.exe` dans le repertoire ou se trouve le fich
 
 * Un backend
 
- # backend est le stockage désigné pour notre instance dans la région Europe de l'est n°3
+backend est le stockage désigné pour notre instance dans la région Europe de l'est n°3
   backend "s3" {
     bucket = "tpbucketflo"
     key    = "tfstate/tpbucketflo.tfstate"
