@@ -33,7 +33,7 @@ type d'instance : t2.micro
 ID AMI : ami-02ea01341a2884771
 
 création d'une "Key" appelé cletp.pem 
-![clétp](paireclé.jpg)
+![clétp](paireclé.png)
 
 * Un security group
 
